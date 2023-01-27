@@ -17,18 +17,32 @@
           <svg stroke="currentColor" fill="currentColor"  stroke-width="0" viewBox="0 0 24 24" color="#fff" class="text-white hover:text-slate-300" height="34" width="34" xmlns="http://www.w3.org/2000/svg"><g><path fill="none" d="M0 0h24v24H0z"></path><path d="M3 4h18v2H3V4zm6 7h12v2H9v-2zm-6 7h18v2H3v-2z"></path></g></svg>
         </span>
       </div>
-      <ul id="navbar--small" class="hidden bg-slate-800 text-white flex-col absolute right-4 top-12 space-y-3 py-4 px-4">
-        <li>lorem</li>
-        <li>lorem</li>
-        <li>lorem</li>
-        <li>lorem</li>
-        <li>lorem</li>
+      <ul id="navbar--small" class="hidden font-sans text-xl pt-8 bg-slate-800 text-white text-right flex-col absolute right-4 top-12 space-y-3 py-4 px-10 transition-all delay-700 ease-linear">
+        <a class="block" href="#">Home</a>
+        <a  class="block"href="#">What is GPT?</a>
+        <a class="block" href="#">Open AI <a>
+        <a class="block" href="#">Case Studies</a>
+        <a class="block" href="#">Libraries</a>
+        <div class="flex pt-4 flex-col lg:hidden">
+          <span class="pb-4">Sign In</span>
+          <span class="bg-orange-600 py-2 px-4 rounded-lg">Sign Up</span>
+        </div>
       </ul>
+      <!-- <div class="pt-4 hidden md:flex-row">
+        <span class="pb-4">Sign In</span>
+        <span class="bg-orange-600 py-2 px-4 rounded-lg">Sign Up</span>
+      </div> -->
       </nav>
     </main>
     <script>
       const navbarBar = document.getElementById('navbar-bar');
       const navbarSmall = document.getElementById('navbar--small');
+      document.documentElement.addEventListener("click",()=>{
+        if (!navbarSmall.classList.contains('hidden') && (window.innerWidth > 768 )){
+        // console.log(window.innerWidth);
+        navbarSmall.classList.add('hidden')
+      } 
+      });
       navbarBar.addEventListener('click',()=>{navbarSmall.classList.toggle('hidden');});
 
     </script>
