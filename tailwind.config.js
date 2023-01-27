@@ -5,20 +5,11 @@ module.exports = {
   darkMode: ["class"],
   theme: {
     extend: {
-      colors: {
-        clifford: "#da373d",
-        "regal-blue": "#243c5a",
-      },
-      screens: {
-        xsm: "550px",
+      flexGrow: {
+        2: "2",
+        0.75: "0.75",
       },
     },
-    screens: {
-      sm: "640px",
-      md: "768px",
-      lg: "1024px",
-      xl: "1280px",
-    },
+    plugins: [],
   },
-  plugins: [],
 };
