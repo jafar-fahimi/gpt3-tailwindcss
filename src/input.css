@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .hero-bg--gradient {
+    background: radial-gradient(circle at 3% 25%, #002853 0, #040c18 25%);
+    /* background-size: cover; */
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
