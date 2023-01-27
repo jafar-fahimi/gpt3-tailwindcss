@@ -520,6 +520,12 @@ video {
   background-repeat: no-repeat;
 }
 
+.possibility-bg--gradient {
+  background: radial-gradient(circle at 30% -100%, #042c54 25%, #042c54 85%, #1b78de 100%);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
 .absolute {
   position: absolute;
 }
@@ -555,6 +561,21 @@ video {
   margin-bottom: 2rem;
 }
 
+.my-16 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -565,6 +586,14 @@ video {
 
 .ml-4 {
   margin-left: 1rem;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.mt-px {
+  margin-top: 1px;
 }
 
 .block {
@@ -587,8 +616,32 @@ video {
   height: 100%;
 }
 
+.h-\[3px\] {
+  height: 3px;
+}
+
 .w-full {
   width: 100%;
+}
+
+.w-\[90\%\] {
+  width: 90%;
+}
+
+.w-12 {
+  width: 3rem;
+}
+
+.w-40 {
+  width: 10rem;
+}
+
+.max-w-lg {
+  max-width: 32rem;
+}
+
+.max-w-\[300px\] {
+  max-width: 300px;
 }
 
 .flex-1 {
@@ -664,6 +717,10 @@ video {
   background-color: rgb(30 41 59 / 0.3);
 }
 
+.bg-blue-700\/40 {
+  background-color: rgb(29 78 216 / 0.4);
+}
+
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
@@ -713,6 +770,11 @@ video {
   padding-right: 2.5rem;
 }
 
+.px-14 {
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
+
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -726,21 +788,6 @@ video {
 .px-16 {
   padding-left: 4rem;
   padding-right: 4rem;
-}
-
-.px-12 {
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
-
-.px-1 {
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
-}
-
-.px-14 {
-  padding-left: 3.5rem;
-  padding-right: 3.5rem;
 }
 
 .pl-20 {
@@ -757,6 +804,10 @@ video {
 
 .pb-4 {
   padding-bottom: 1rem;
+}
+
+.pr-12 {
+  padding-right: 3rem;
 }
 
 .text-right {
@@ -790,6 +841,11 @@ video {
   font-size: 12px;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -809,6 +865,16 @@ video {
 
 .text-sky-300\/90 {
   color: rgb(125 211 252 / 0.9);
+}
+
+.text-sky-400 {
+  --tw-text-opacity: 1;
+  color: rgb(56 189 248 / var(--tw-text-opacity));
+}
+
+.text-orange-400 {
+  --tw-text-opacity: 1;
+  color: rgb(251 146 60 / var(--tw-text-opacity));
 }
 
 .transition-all {

@@ -9,4 +9,9 @@
     background-size: 100%;
     background-repeat: no-repeat;
   }
+  .possibility-bg--gradient {
+    background: radial-gradient(circle at 30% -100%, #042c54 25%, #042c54 85%, #1b78de 100%);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
 }
