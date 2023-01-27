@@ -883,6 +883,10 @@ video {
   --tw-gradient-to: #fdba74;
 }
 
+.to-orange-400\/60 {
+  --tw-gradient-to: rgb(251 146 60 / 0.6);
+}
+
 .bg-clip-text {
   -webkit-background-clip: text;
           background-clip: text;
@@ -1042,6 +1046,18 @@ video {
 
 .leading-10 {
   line-height: 2.5rem;
+}
+
+.leading-7 {
+  line-height: 1.75rem;
+}
+
+.leading-loose {
+  line-height: 2;
+}
+
+.leading-normal {
+  line-height: 1.5;
 }
 
 .text-white {
