@@ -1235,6 +1235,47 @@ video {
   opacity: 0.9;
 }
 
+.focus\:border-2:focus {
+  border-width: 2px;
+}
+
+.focus\:border-orange-600:focus {
+  --tw-border-opacity: 1;
+  border-color: rgb(234 88 12 / var(--tw-border-opacity));
+}
+
+.focus\:bg-transparent:focus {
+  background-color: transparent;
+}
+
+.focus\:text-orange-600:focus {
+  --tw-text-opacity: 1;
+  color: rgb(234 88 12 / var(--tw-text-opacity));
+}
+
+.active\:border-2:active {
+  border-width: 2px;
+}
+
+.active\:border-orange-600:active {
+  --tw-border-opacity: 1;
+  border-color: rgb(234 88 12 / var(--tw-border-opacity));
+}
+
+.active\:active\:border-orange-600:active:active {
+  --tw-border-opacity: 1;
+  border-color: rgb(234 88 12 / var(--tw-border-opacity));
+}
+
+.active\:bg-transparent:active {
+  background-color: transparent;
+}
+
+.active\:text-orange-600:active {
+  --tw-text-opacity: 1;
+  color: rgb(234 88 12 / var(--tw-text-opacity));
+}
+
 @media (min-width: 640px) {
   .sm\:flex-row {
     flex-direction: row;
